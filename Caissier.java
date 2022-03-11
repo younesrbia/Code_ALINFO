@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package entites;
+
 
 public class Caissier extends Employe {
-    /*
+    
 
     private int num_caisse;
 
@@ -47,5 +47,5 @@ public class Caissier extends Employe {
 
         return nb_heure * 5;
     }
-*/
+
 }
