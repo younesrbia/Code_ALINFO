@@ -79,13 +79,13 @@ public class Produit {
         this.prix=prix;
         this.date_expiration=date_expiration;
     }
-     /*
-    
+
+    // methode afficher
     public void afficher(){
         System.out.println("Id ="+identifiant+" , libelle = "+libelle+" , marque = "+marque
         +" , prix = "+prix);
     }
-    
+         /*
     @Override
     public String toString(){
         return "Id ="+identifiant+" , libelle = "+libelle+" , marque = "+marque
