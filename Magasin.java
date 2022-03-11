@@ -6,7 +6,7 @@
 package entites;
 
 public class Magasin {
-/*
+// Creé par ************** Khaled Jalleli ************** 
     private int identifiant;
     private String nom;
     private String adresse;
@@ -142,5 +142,5 @@ public class Magasin {
         }
         return nbr;
     }
-*/
+
 }
