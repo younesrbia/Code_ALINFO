@@ -85,13 +85,13 @@ public class Produit {
         System.out.println("Id ="+identifiant+" , libelle = "+libelle+" , marque = "+marque
         +" , prix = "+prix);
     }
-         /*
+    //methode toString
     @Override
     public String toString(){
         return "Id ="+identifiant+" , libelle = "+libelle+" , marque = "+marque
         +" , prix = "+prix+ " , la date est = "+date_expiration;
     }
-    
+    /*
     public boolean comparer(Produit p){
        return (identifiant==p.identifiant && libelle.equals(p.libelle) && prix==p.prix);
        
