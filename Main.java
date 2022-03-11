@@ -14,8 +14,6 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws ParseException {
-        /*
-        // TODO code application logic here
         Produit p1 = new Produit();
         //System.out.println(p1.prix);
 
@@ -43,20 +41,20 @@ public class Main {
         p4.setDate_expiration(d4);
         // System.out.println(p4);
 
-        Magasin m1 = new Magasin(1, "Carrefour", "Ariana");
+       // Magasin m1 = new Magasin(1, "Carrefour", "Ariana");
         //  System.out.println(m1.cmp+"  "+Magasin.cmptotal);
 
-        m1.ajouterProduit(p2);
-        m1.ajouterProduit(p3);
-        m1.ajouterProduit(p4);
+     //   m1.ajouterProduit(p2);
+       // m1.ajouterProduit(p3);
+        //m1.ajouterProduit(p4);
         //System.out.println(m1);
 //        System.out.println(m1.cmp+"  "+Magasin.cmptotal);
 //        System.out.println("*********");
-        Magasin m2 = new Magasin(2, "Monoprix", "Ariana");
+      //  Magasin m2 = new Magasin(2, "Monoprix", "Ariana");
         //   System.out.println(m2.cmp+"  "+Magasin.cmptotal);
-        m2.ajouterProduit(p2);
-        m2.ajouterProduit(p3);
-        m2.ajouterProduit(p3);
+      //  m2.ajouterProduit(p2);
+        //m2.ajouterProduit(p3);
+        //m2.ajouterProduit(p3);
         // System.out.println(m2);
 
         // Magasin.comparerMagasin(m1, m2);
@@ -65,19 +63,19 @@ public class Main {
         //  System.out.println(p2.comparer(p2));
         //  System.out.println(Produit.comparer(p2, p3));
         //  Employe e1=new Employe();
-        Caissier c1 = new Caissier(20, 1, "caissier1", "ariana", 45);
-        Caissier c2 = new Caissier(23, 2, "caissier2", "ariana", 50);
-        Caissier c3 = new Caissier(20, 1, "caissier1", "ariana", 45);
-
-        Responsable r1 = new Responsable(200, 1, "resp1", "ariana", 35);
-        Responsable r2 = new Responsable(250, 2, "resp2", "ariana", 30);
-
-        Vendeur v1 = new Vendeur(3.5f, 1, "Vend1", "adresse", 29);
-        Vendeur v2 = new Vendeur(3.6f, 2, "Vend2", "adresse", 34);
-
-        m1.ajouterEmploye(c1);
-        m1.ajouterEmploye(v1);
-        m1.ajouterEmploye(r1);
+//        Caissier c1 = new Caissier(20, 1, "caissier1", "ariana", 45);
+//        Caissier c2 = new Caissier(23, 2, "caissier2", "ariana", 50);
+//        Caissier c3 = new Caissier(20, 1, "caissier1", "ariana", 45);
+//
+//        Responsable r1 = new Responsable(200, 1, "resp1", "ariana", 35);
+//        Responsable r2 = new Responsable(250, 2, "resp2", "ariana", 30);
+//
+//        Vendeur v1 = new Vendeur(3.5f, 1, "Vend1", "adresse", 29);
+//        Vendeur v2 = new Vendeur(3.6f, 2, "Vend2", "adresse", 34);
+//
+//        m1.ajouterEmploye(c1);
+//        m1.ajouterEmploye(v1);
+//        m1.ajouterEmploye(r1);
 
         //  System.out.println(m1);
         // System.out.println(c1);
@@ -90,9 +88,8 @@ public class Main {
         //  e1.test();
         //System.out.println(e1.toString());
         //DownCast Explicit + non autorisé
-        ((Caissier) e1).test2();
-        //  Caissier c=new Employe() ;
-        System.out.println(c1.equals(c3));
-*/    
+//        ((Caissier) e1).test2();
+//        //  Caissier c=new Employe() ;
+//        System.out.println(c1.equals(c3)); 
 }
 }
