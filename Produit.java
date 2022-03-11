@@ -91,7 +91,8 @@ public class Produit {
         return "Id ="+identifiant+" , libelle = "+libelle+" , marque = "+marque
         +" , prix = "+prix+ " , la date est = "+date_expiration;
     }
-    /*
+    
+    //methode comparer
     public boolean comparer(Produit p){
        return (identifiant==p.identifiant && libelle.equals(p.libelle) && prix==p.prix);
        
@@ -101,6 +102,6 @@ public class Produit {
        return (p1.identifiant==p2.identifiant && p1.libelle.equals(p2.libelle) && p1.prix==p2.prix);
        
     }
-     */
+     
 
 }
